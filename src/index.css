@@ -38,9 +38,9 @@
   padding: 10px 25px;
   margin-right: 20px;
   border-radius: 15px;
-  background-color: #41a719;
+  background-color: #fff;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
 }
 .settings {
   color: #41a719;
@@ -100,7 +100,7 @@
   margin-bottom: 20px;
 }
 .search input {
-  width: 550px;
+  width: 500px;
   height: 50px;
   border-radius: 15px;
   position: relative;
@@ -113,9 +113,6 @@
   color: #000000;
 }
 .search button {
-  position: absolute;
-  right: 402px;
-  top: 636px;
   height: 47px;
   width: 100px;
   border-radius: 15px;
@@ -123,6 +120,15 @@
   background-color: #121212ad;
   color: #fff;
   font-weight: bold;
+  margin-left: 5px;
+}
+
+/*------MOBILE-------*/
+
+@media only screen and (max-width:900px) {
+   .search input {
+    width: 400px;
+   }
 }
 
 

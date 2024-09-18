@@ -9,16 +9,14 @@ const Navbar = () => {
 
     const refnav = useRef();
     const refbtn = useRef();
-    const refsect = useRef();
 
-    const dark = () => {
+    const handleDark = () => {
         reflink1.current.style.color = "#41a719";
         reflink2.current.style.color = "#41a719";
         reflink3.current.style.color = "#41a719";
         reflink4.current.style.color = "#41a719";
 
         refnav.current.style.backgroundColor = "#121212";
-        refsect.current.style.backgroundColor = "#121212";
         refbtn.current.style.backgroundColor = "#41a719";
     }
 
@@ -34,7 +32,7 @@ const Navbar = () => {
             <img src="" alt="" />
             <div className="buttons">
             <button id="getStart" ref={refbtn}>Get Started</button>
-            <Settings  className="settings" onClick={dark}/>
+            <Settings  className="settings" onClick={handleDark}/>
             </div>
 
         </nav>
