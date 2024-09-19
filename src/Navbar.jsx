@@ -10,6 +10,7 @@ const Navbar = () => {
     const refnav = useRef();
     const refbtn = useRef();
 
+
     const handleDark = () => {
         reflink1.current.style.color = "#41a719";
         reflink2.current.style.color = "#41a719";
@@ -18,6 +19,7 @@ const Navbar = () => {
 
         refnav.current.style.backgroundColor = "#121212";
         refbtn.current.style.backgroundColor = "#41a719";
+        refbtn.current.style.color = "#fff";
     }
 
     return(

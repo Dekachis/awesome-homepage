@@ -9,6 +9,7 @@
 }
 
 /*-------NAVBAR-------*/
+
 .navbar {
   width: 100%;
   color:#000000;
@@ -29,18 +30,27 @@
 .navbar ul li a {
   color: #2b2a2a;
   font-weight: 600;
+  font-size: 16px;
 }
 .navbar ul li a:hover {
   color: #41a719;
 }
 .navbar .buttons button {
-  border: 2px solid #41a719;
+  border: 2px solid #41a719a9;
   padding: 10px 25px;
   margin-right: 20px;
   border-radius: 15px;
   background-color: #fff;
   font-weight: 600;
   color: #000000;
+}
+.navbar .buttons button:hover {
+  background-color: #41a719;
+  color: #fff;
+}
+.navbar .buttons button:active {
+  background-color: #000000;
+  border: #000000;
 }
 .settings {
   color: #41a719;
@@ -50,6 +60,7 @@
 
 
 /*--------LANDING PAGE----------*/
+
 .landing-section {
   width: 100%;
   background-color: #fff;
@@ -79,13 +90,13 @@
 
 .container .info h1 {
   color: #000000;
-  font-size: 70px;
+  font-size: 80px;
   margin-top: 100px;
   font-weight: bolder;
 }
 .container .info p {
   color: #000000;
-  font-size: 16px;
+  font-size: 18px;
 }
 .container .info button {
   background-color: #41a719;
@@ -95,6 +106,10 @@
   color: white;
   margin-top: 10px;
   font-weight: bold;
+  transition: 0.1s;
+}
+.container .info button:active {
+  background-color: #000000;
 }
 .search {
   margin-bottom: 20px;
