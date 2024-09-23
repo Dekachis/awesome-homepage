@@ -20,6 +20,10 @@ const Navbar = () => {
         refnav.current.style.backgroundColor = "#121212";
         refbtn.current.style.backgroundColor = "#41a719";
         refbtn.current.style.color = "#fff";
+
+        const landing = document.getElementById("land");
+        
+        landing.style.backgroundColor = "#121212";
     }
 
     return(

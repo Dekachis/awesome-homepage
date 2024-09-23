@@ -70,7 +70,7 @@
   align-items: center;
 }
 .container {
-  background-image: url('nordwood-themes-kRNZiGKtz48-unsplash.jpg');
+  background-image: url(../nordwood-themes-kRNZiGKtz48-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 98.6%;
